@@ -1,0 +1,449 @@
+# Copyright (C) 2026 Katsarov Design
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Free Analytics 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/katsar0v/free-analytics/issues\n"
+"Last-Translator: Katsarov Design\n"
+"Language-Team: Katsarov Design\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-31T10:44:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: free-analytics\n"
+
+#. Plugin Name of the plugin
+#: free-analytics.php
+msgid "Free Analytics"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: free-analytics.php
+msgid "https://github.com/katsar0v/free-analytics"
+msgstr ""
+
+#. Description of the plugin
+#: free-analytics.php
+msgid "Simple, cookieless visitor statistics stored in your own database: visitors, page views, top content, traffic sources, contact clicks and form submissions. No IP addresses are stored."
+msgstr ""
+
+#. Author of the plugin
+#: free-analytics.php
+msgid "Katsarov Design"
+msgstr ""
+
+#. Author URI of the plugin
+#: free-analytics.php
+msgid "https://github.com/katsar0v"
+msgstr ""
+
+#: inc/admin_page.php:77
+#: inc/admin_page.php:341
+#: inc/admin_page.php:976
+msgid "Visitor statistics"
+msgstr ""
+
+#: inc/admin_page.php:78
+msgid "Statistics"
+msgstr ""
+
+#: inc/admin_page.php:119
+msgid "Today"
+msgstr ""
+
+#: inc/admin_page.php:120
+msgid "Yesterday"
+msgstr ""
+
+#: inc/admin_page.php:121
+msgid "7 days"
+msgstr ""
+
+#: inc/admin_page.php:122
+msgid "30 days"
+msgstr ""
+
+#: inc/admin_page.php:123
+msgid "This month"
+msgstr ""
+
+#: inc/admin_page.php:124
+msgid "Last month"
+msgstr ""
+
+#: inc/admin_page.php:125
+msgid "12 months"
+msgstr ""
+
+#. translators: date format of a single day, see https://www.php.net/manual/datetime.format.php
+#. translators: day on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:230
+#: inc/admin_page.php:536
+msgid "l, F j, Y"
+msgstr ""
+
+#. translators: date format inside a period, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:235
+msgid "F j, Y"
+msgstr ""
+
+#. translators: 1: first day, 2: last day
+#: inc/admin_page.php:238
+#, php-format
+msgid "%1$s – %2$s"
+msgstr ""
+
+#: inc/admin_page.php:251
+msgid "Home page"
+msgstr ""
+
+#. translators: %s: difference in percentage points
+#: inc/admin_page.php:294
+#, php-format
+msgid "%s pp"
+msgstr ""
+
+#: inc/admin_page.php:298
+msgid "new"
+msgstr ""
+
+#: inc/admin_page.php:329
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#. translators: %s: number of visitors in the last 5 minutes
+#: inc/admin_page.php:346
+#: inc/admin_page.php:1011
+#, php-format
+msgid "Online now: %s"
+msgstr ""
+
+#. translators: %s: the previous period
+#: inc/admin_page.php:357
+#, php-format
+msgid "Change compared with %s"
+msgstr ""
+
+#: inc/admin_page.php:384
+msgid "Devices"
+msgstr ""
+
+#: inc/admin_page.php:385
+msgid "Browsers"
+msgstr ""
+
+#: inc/admin_page.php:386
+msgid "Operating systems"
+msgstr ""
+
+#. translators: %d: months the data is kept
+#: inc/admin_page.php:393
+#, php-format
+msgid "These statistics use no cookies and store no IP addresses. A visitor is recognised only within one day, by an anonymous code that changes every night, so for a period of several days \"Visitors\" is the sum of each day's unique visitors. Data is kept for %d month. Logged-in users are not counted."
+msgid_plural "These statistics use no cookies and store no IP addresses. A visitor is recognised only within one day, by an anonymous code that changes every night, so for a period of several days \"Visitors\" is the sum of each day's unique visitors. Data is kept for %d months. Logged-in users are not counted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin_page.php:421
+msgid "The web server passes the address of a proxy to WordPress instead of the visitor's (REMOTE_ADDR is an internal address and the request has X-Forwarded-For). All visitors would be counted as one. Configure the server to pass the real client IP (for example mod_remoteip or the nginx real_ip module)."
+msgstr ""
+
+#: inc/admin_page.php:436
+#: inc/admin_page.php:634
+msgid "Period"
+msgstr ""
+
+#: inc/admin_page.php:453
+msgctxt "date range"
+msgid "from"
+msgstr ""
+
+#: inc/admin_page.php:459
+msgctxt "date range"
+msgid "to"
+msgstr ""
+
+#: inc/admin_page.php:466
+msgid "Show"
+msgstr ""
+
+#: inc/admin_page.php:486
+#: inc/admin_page.php:634
+#: inc/admin_page.php:725
+#: inc/admin_page.php:791
+msgid "Visitors"
+msgstr ""
+
+#: inc/admin_page.php:486
+msgid "sum of each day's unique visitors"
+msgstr ""
+
+#: inc/admin_page.php:486
+msgid "unique for the day"
+msgstr ""
+
+#: inc/admin_page.php:487
+#: inc/admin_page.php:830
+#: inc/admin_page.php:856
+msgid "Visits"
+msgstr ""
+
+#: inc/admin_page.php:487
+msgid "a new one after 30 minutes of inactivity"
+msgstr ""
+
+#: inc/admin_page.php:488
+#: inc/admin_page.php:634
+msgid "Page views"
+msgstr ""
+
+#: inc/admin_page.php:489
+msgid "Pages per visit"
+msgstr ""
+
+#: inc/admin_page.php:490
+msgid "Bounce rate"
+msgstr ""
+
+#: inc/admin_page.php:490
+msgid "visits with a single page"
+msgstr ""
+
+#: inc/admin_page.php:491
+msgid "Phone calls"
+msgstr ""
+
+#: inc/admin_page.php:491
+msgid "clicks on phone numbers"
+msgstr ""
+
+#: inc/admin_page.php:492
+msgid "Form submissions"
+msgstr ""
+
+#: inc/admin_page.php:492
+msgid "successfully sent forms"
+msgstr ""
+
+#: inc/admin_page.php:493
+msgid "All contacts"
+msgstr ""
+
+#: inc/admin_page.php:493
+msgid "phone, email, map, Viber, WhatsApp"
+msgstr ""
+
+#. translators: short month on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:530
+msgid "M Y"
+msgstr ""
+
+#. translators: short month on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:530
+msgid "M"
+msgstr ""
+
+#. translators: month in the chart tooltip, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:532
+msgid "F Y"
+msgstr ""
+
+#. translators: day on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:536
+msgid "n/j"
+msgstr ""
+
+#: inc/admin_page.php:572
+msgid "Visitors by hour"
+msgstr ""
+
+#: inc/admin_page.php:573
+msgid "Visitors by day"
+msgstr ""
+
+#: inc/admin_page.php:574
+msgid "Visitors by month"
+msgstr ""
+
+#: inc/admin_page.php:602
+msgid "visitor"
+msgid_plural "visitors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin_page.php:603
+msgid "page view"
+msgid_plural "page views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin_page.php:633
+msgid "Show as a table"
+msgstr ""
+
+#: inc/admin_page.php:665
+msgid "No data for the selected period."
+msgstr ""
+
+#. translators: %s: post type name, plural (e.g. Posts, Products)
+#: inc/admin_page.php:717
+#, php-format
+msgid "Most viewed: %s"
+msgstr ""
+
+#: inc/admin_page.php:718
+msgid "Contacts: phone, email, map and form submissions from the page."
+msgstr ""
+
+#: inc/admin_page.php:724
+#: inc/admin_page.php:790
+#: inc/admin_page.php:915
+msgid "Views"
+msgstr ""
+
+#: inc/admin_page.php:726
+#: inc/admin_page.php:831
+#: inc/admin_page.php:857
+#: inc/admin_page.php:879
+msgid "Contacts"
+msgstr ""
+
+#: inc/admin_page.php:754
+msgid "not published"
+msgstr ""
+
+#: inc/admin_page.php:762
+msgid "deleted"
+msgstr ""
+
+#: inc/admin_page.php:780
+msgid "Most viewed pages"
+msgstr ""
+
+#: inc/admin_page.php:789
+msgid "Page"
+msgstr ""
+
+#: inc/admin_page.php:810
+msgid "Direct"
+msgstr ""
+
+#: inc/admin_page.php:821
+msgid "Traffic sources"
+msgstr ""
+
+#: inc/admin_page.php:821
+msgid "\"Direct\": typed address, bookmark, app, or a site that hides the referrer."
+msgstr ""
+
+#: inc/admin_page.php:829
+msgid "Source"
+msgstr ""
+
+#: inc/admin_page.php:832
+#: inc/admin_page.php:858
+msgid "Forms"
+msgstr ""
+
+#: inc/admin_page.php:852
+msgid "Campaigns (UTM)"
+msgstr ""
+
+#: inc/admin_page.php:855
+msgid "Campaign"
+msgstr ""
+
+#: inc/admin_page.php:879
+msgid "Clicks on contact links and sent forms, with the pages where they happen most."
+msgstr ""
+
+#: inc/admin_page.php:888
+msgid "Type"
+msgstr ""
+
+#: inc/admin_page.php:889
+msgid "Count"
+msgstr ""
+
+#: inc/admin_page.php:911
+msgid "Missing pages (404)"
+msgstr ""
+
+#: inc/admin_page.php:911
+msgid "Addresses that visitors open but that do not exist, for example removed content or broken links."
+msgstr ""
+
+#: inc/admin_page.php:914
+msgid "Address"
+msgstr ""
+
+#: inc/admin_page.php:953
+msgid "Other"
+msgstr ""
+
+#. translators: %s: number of page views
+#: inc/admin_page.php:993
+#, php-format
+msgid "%s page view"
+msgid_plural "%s page views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin_page.php:997
+msgid "Visitors today"
+msgstr ""
+
+#: inc/admin_page.php:998
+msgid "Visitors, 7 days"
+msgstr ""
+
+#. translators: %s: number of form submissions
+#: inc/admin_page.php:1000
+msgid "Contacts, 7 days"
+msgstr ""
+
+#. translators: %s: number of form submissions
+#: inc/admin_page.php:1000
+#, php-format
+msgid "%s form submission"
+msgid_plural "%s form submissions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin_page.php:1013
+msgid "View statistics →"
+msgstr ""
+
+#: inc/classify.php:82
+msgid "Desktop"
+msgstr ""
+
+#: inc/classify.php:83
+msgid "Mobile"
+msgstr ""
+
+#: inc/classify.php:84
+msgid "Tablet"
+msgstr ""
+
+#: inc/classify.php:96
+msgid "Page view"
+msgstr ""
+
+#: inc/classify.php:97
+msgid "Phone call"
+msgstr ""
+
+#: inc/classify.php:98
+msgid "Email"
+msgstr ""
+
+#: inc/classify.php:99
+msgid "Directions (map)"
+msgstr ""
+
+#: inc/classify.php:102
+msgid "Form submission"
+msgstr ""

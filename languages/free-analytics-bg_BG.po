@@ -1,0 +1,448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Free Analytics 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-31T10:44:39+00:00\n"
+"PO-Revision-Date: 2026-10-31 12:30+0200\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: free-analytics\n"
+
+#. Plugin Name of the plugin
+#: free-analytics.php
+msgid "Free Analytics"
+msgstr "Free Analytics"
+
+#. Description of the plugin
+#: free-analytics.php
+msgid "Simple, cookieless visitor statistics stored in your own database: visitors, page views, top content, traffic sources, contact clicks and form submissions. No IP addresses are stored."
+msgstr "Проста статистика на посещенията без бисквитки, съхранявана в собствената Ви база данни: посетители, прегледи, най-гледано съдържание, източници на трафик, натискания за контакт и изпратени формуляри. IP адресите не се записват."
+
+#: inc/admin_page.php:77
+#: inc/admin_page.php:341
+#: inc/admin_page.php:976
+msgid "Visitor statistics"
+msgstr "Статистика на посещенията"
+
+#: inc/admin_page.php:78
+msgid "Statistics"
+msgstr "Статистика"
+
+#: inc/admin_page.php:119
+msgid "Today"
+msgstr "Днес"
+
+#: inc/admin_page.php:120
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: inc/admin_page.php:121
+msgid "7 days"
+msgstr "7 дни"
+
+#: inc/admin_page.php:122
+msgid "30 days"
+msgstr "30 дни"
+
+#: inc/admin_page.php:123
+msgid "This month"
+msgstr "Този месец"
+
+#: inc/admin_page.php:124
+msgid "Last month"
+msgstr "Миналия месец"
+
+#: inc/admin_page.php:125
+msgid "12 months"
+msgstr "12 месеца"
+
+#. translators: date format of a single day, see https://www.php.net/manual/datetime.format.php
+#. translators: day on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:230
+#: inc/admin_page.php:536
+msgid "l, F j, Y"
+msgstr "l, j F Y г."
+
+#. translators: date format inside a period, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:235
+msgid "F j, Y"
+msgstr "j F Y г."
+
+#. translators: 1: first day, 2: last day
+#: inc/admin_page.php:238
+#, php-format
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: inc/admin_page.php:251
+msgid "Home page"
+msgstr "Начална страница"
+
+#. translators: %s: difference in percentage points
+#: inc/admin_page.php:294
+#, php-format
+msgid "%s pp"
+msgstr "%s пр.п."
+
+#: inc/admin_page.php:298
+msgid "new"
+msgstr "ново"
+
+#: inc/admin_page.php:329
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Нямате право да виждате тази страница."
+
+#. translators: %s: number of visitors in the last 5 minutes
+#: inc/admin_page.php:346
+#: inc/admin_page.php:1011
+#, php-format
+msgid "Online now: %s"
+msgstr "Сега на сайта: %s"
+
+#. translators: %s: the previous period
+#: inc/admin_page.php:357
+#, php-format
+msgid "Change compared with %s"
+msgstr "Промяната е спрямо %s"
+
+#: inc/admin_page.php:384
+msgid "Devices"
+msgstr "Устройства"
+
+#: inc/admin_page.php:385
+msgid "Browsers"
+msgstr "Браузъри"
+
+#: inc/admin_page.php:386
+msgid "Operating systems"
+msgstr "Операционни системи"
+
+#. translators: %d: months the data is kept
+#: inc/admin_page.php:393
+#, php-format
+msgid "These statistics use no cookies and store no IP addresses. A visitor is recognised only within one day, by an anonymous code that changes every night, so for a period of several days \"Visitors\" is the sum of each day's unique visitors. Data is kept for %d month. Logged-in users are not counted."
+msgid_plural "These statistics use no cookies and store no IP addresses. A visitor is recognised only within one day, by an anonymous code that changes every night, so for a period of several days \"Visitors\" is the sum of each day's unique visitors. Data is kept for %d months. Logged-in users are not counted."
+msgstr[0] "Статистиката не използва бисквитки и не пази IP адреси. Посетителят се разпознава само в рамките на деня по анонимен код, който се сменя всяка нощ, затова при период от няколко дни „Посетители“ е сборът от уникалните посетители за всеки ден. Данните се пазят %d месец. Влезлите потребители не се броят."
+msgstr[1] "Статистиката не използва бисквитки и не пази IP адреси. Посетителят се разпознава само в рамките на деня по анонимен код, който се сменя всяка нощ, затова при период от няколко дни „Посетители“ е сборът от уникалните посетители за всеки ден. Данните се пазят %d месеца. Влезлите потребители не се броят."
+
+#: inc/admin_page.php:421
+msgid "The web server passes the address of a proxy to WordPress instead of the visitor's (REMOTE_ADDR is an internal address and the request has X-Forwarded-For). All visitors would be counted as one. Configure the server to pass the real client IP (for example mod_remoteip or the nginx real_ip module)."
+msgstr "Сървърът подава на WordPress адреса на прокси, а не на посетителя (REMOTE_ADDR е вътрешен адрес, а заявката има X-Forwarded-For). Така всички посетители ще се броят като един. Настройте сървъра да подава реалния IP адрес (например mod_remoteip или модула real_ip на nginx)."
+
+#: inc/admin_page.php:436
+#: inc/admin_page.php:634
+msgid "Period"
+msgstr "Период"
+
+#: inc/admin_page.php:453
+msgctxt "date range"
+msgid "from"
+msgstr "от"
+
+#: inc/admin_page.php:459
+msgctxt "date range"
+msgid "to"
+msgstr "до"
+
+#: inc/admin_page.php:466
+msgid "Show"
+msgstr "Покажи"
+
+#: inc/admin_page.php:486
+#: inc/admin_page.php:634
+#: inc/admin_page.php:725
+#: inc/admin_page.php:791
+msgid "Visitors"
+msgstr "Посетители"
+
+#: inc/admin_page.php:486
+msgid "sum of each day's unique visitors"
+msgstr "сбор от уникалните за всеки ден"
+
+#: inc/admin_page.php:486
+msgid "unique for the day"
+msgstr "уникални за деня"
+
+#: inc/admin_page.php:487
+#: inc/admin_page.php:830
+#: inc/admin_page.php:856
+msgid "Visits"
+msgstr "Посещения"
+
+#: inc/admin_page.php:487
+msgid "a new one after 30 minutes of inactivity"
+msgstr "ново след 30 мин. без активност"
+
+#: inc/admin_page.php:488
+#: inc/admin_page.php:634
+msgid "Page views"
+msgstr "Прегледи на страници"
+
+#: inc/admin_page.php:489
+msgid "Pages per visit"
+msgstr "Страници на посещение"
+
+#: inc/admin_page.php:490
+msgid "Bounce rate"
+msgstr "Отпадане"
+
+#: inc/admin_page.php:490
+msgid "visits with a single page"
+msgstr "посещения само с една страница"
+
+#: inc/admin_page.php:491
+msgid "Phone calls"
+msgstr "Обаждания"
+
+#: inc/admin_page.php:491
+msgid "clicks on phone numbers"
+msgstr "натискания на телефон"
+
+#: inc/admin_page.php:492
+msgid "Form submissions"
+msgstr "Изпратени формуляри"
+
+#: inc/admin_page.php:492
+msgid "successfully sent forms"
+msgstr "успешно изпратени"
+
+#: inc/admin_page.php:493
+msgid "All contacts"
+msgstr "Всички контакти"
+
+#: inc/admin_page.php:493
+msgid "phone, email, map, Viber, WhatsApp"
+msgstr "телефон, имейл, карта, Viber, WhatsApp"
+
+#. translators: short month on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:530
+msgid "M Y"
+msgstr "M Y"
+
+#. translators: short month on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:530
+msgid "M"
+msgstr "M"
+
+#. translators: month in the chart tooltip, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:532
+msgid "F Y"
+msgstr "F Y г."
+
+#. translators: day on the chart axis, see https://www.php.net/manual/datetime.format.php
+#: inc/admin_page.php:536
+msgid "n/j"
+msgstr "j.m"
+
+#: inc/admin_page.php:572
+msgid "Visitors by hour"
+msgstr "Посетители по часове"
+
+#: inc/admin_page.php:573
+msgid "Visitors by day"
+msgstr "Посетители по дни"
+
+#: inc/admin_page.php:574
+msgid "Visitors by month"
+msgstr "Посетители по месеци"
+
+#: inc/admin_page.php:602
+msgid "visitor"
+msgid_plural "visitors"
+msgstr[0] "посетител"
+msgstr[1] "посетители"
+
+#: inc/admin_page.php:603
+msgid "page view"
+msgid_plural "page views"
+msgstr[0] "преглед"
+msgstr[1] "прегледа"
+
+#: inc/admin_page.php:633
+msgid "Show as a table"
+msgstr "Покажи като таблица"
+
+#: inc/admin_page.php:665
+msgid "No data for the selected period."
+msgstr "Няма данни за избрания период."
+
+#. translators: %s: post type name, plural (e.g. Posts, Products)
+#: inc/admin_page.php:717
+#, php-format
+msgid "Most viewed: %s"
+msgstr "Най-гледани: %s"
+
+#: inc/admin_page.php:718
+msgid "Contacts: phone, email, map and form submissions from the page."
+msgstr "Контакти: обаждания, имейли, карта и формуляри от страницата."
+
+#: inc/admin_page.php:724
+#: inc/admin_page.php:790
+#: inc/admin_page.php:915
+msgid "Views"
+msgstr "Прегледи"
+
+#: inc/admin_page.php:726
+#: inc/admin_page.php:831
+#: inc/admin_page.php:857
+#: inc/admin_page.php:879
+msgid "Contacts"
+msgstr "Контакти"
+
+#: inc/admin_page.php:754
+msgid "not published"
+msgstr "непубликувана"
+
+#: inc/admin_page.php:762
+msgid "deleted"
+msgstr "изтрита"
+
+#: inc/admin_page.php:780
+msgid "Most viewed pages"
+msgstr "Най-посещавани страници"
+
+#: inc/admin_page.php:789
+msgid "Page"
+msgstr "Страница"
+
+#: inc/admin_page.php:810
+msgid "Direct"
+msgstr "Директно"
+
+#: inc/admin_page.php:821
+msgid "Traffic sources"
+msgstr "Източници на трафик"
+
+#: inc/admin_page.php:821
+msgid "\"Direct\": typed address, bookmark, app, or a site that hides the referrer."
+msgstr "„Директно“: въведен адрес, отметка, приложение или сайт, който скрива откъде идва посетителят."
+
+#: inc/admin_page.php:829
+msgid "Source"
+msgstr "Източник"
+
+#: inc/admin_page.php:832
+#: inc/admin_page.php:858
+msgid "Forms"
+msgstr "Формуляри"
+
+#: inc/admin_page.php:852
+msgid "Campaigns (UTM)"
+msgstr "Кампании (UTM)"
+
+#: inc/admin_page.php:855
+msgid "Campaign"
+msgstr "Кампания"
+
+#: inc/admin_page.php:879
+msgid "Clicks on contact links and sent forms, with the pages where they happen most."
+msgstr "Натискания на връзки за контакт и изпратени формуляри, с най-честите страници."
+
+#: inc/admin_page.php:888
+msgid "Type"
+msgstr "Вид"
+
+#: inc/admin_page.php:889
+msgid "Count"
+msgstr "Брой"
+
+#: inc/admin_page.php:911
+msgid "Missing pages (404)"
+msgstr "Липсващи страници (404)"
+
+#: inc/admin_page.php:911
+msgid "Addresses that visitors open but that do not exist, for example removed content or broken links."
+msgstr "Адреси, които посетителите отварят, но не съществуват, например премахнато съдържание или грешни връзки."
+
+#: inc/admin_page.php:914
+msgid "Address"
+msgstr "Адрес"
+
+#: inc/admin_page.php:953
+msgid "Other"
+msgstr "Други"
+
+#. translators: %s: number of page views
+#: inc/admin_page.php:993
+#, php-format
+msgid "%s page view"
+msgid_plural "%s page views"
+msgstr[0] "%s преглед"
+msgstr[1] "%s прегледа"
+
+#: inc/admin_page.php:997
+msgid "Visitors today"
+msgstr "Посетители днес"
+
+#: inc/admin_page.php:998
+msgid "Visitors, 7 days"
+msgstr "Посетители, 7 дни"
+
+#. translators: %s: number of form submissions
+#: inc/admin_page.php:1000
+msgid "Contacts, 7 days"
+msgstr "Контакти, 7 дни"
+
+#. translators: %s: number of form submissions
+#: inc/admin_page.php:1000
+#, php-format
+msgid "%s form submission"
+msgid_plural "%s form submissions"
+msgstr[0] "%s изпратен формуляр"
+msgstr[1] "%s изпратени формуляра"
+
+#: inc/admin_page.php:1013
+msgid "View statistics →"
+msgstr "Към статистиката →"
+
+#: inc/classify.php:82
+msgid "Desktop"
+msgstr "Компютър"
+
+#: inc/classify.php:83
+msgid "Mobile"
+msgstr "Телефон"
+
+#: inc/classify.php:84
+msgid "Tablet"
+msgstr "Таблет"
+
+#: inc/classify.php:96
+msgid "Page view"
+msgstr "Преглед"
+
+#: inc/classify.php:97
+msgid "Phone call"
+msgstr "Обаждане"
+
+#: inc/classify.php:98
+msgid "Email"
+msgstr "Имейл"
+
+#: inc/classify.php:99
+msgid "Directions (map)"
+msgstr "Упътване (карта)"
+
+#: inc/classify.php:102
+msgid "Form submission"
+msgstr "Изпратен формуляр"
+
+#. Plugin URI of the plugin
+#: free-analytics.php
+msgid "https://github.com/katsar0v/free-analytics"
+msgstr "https://github.com/katsar0v/free-analytics"
+
+#. Author of the plugin
+#: free-analytics.php
+msgid "Katsarov Design"
+msgstr "Katsarov Design"
+
+#. Author URI of the plugin
+#: free-analytics.php
+msgid "https://github.com/katsar0v"
+msgstr "https://github.com/katsar0v"

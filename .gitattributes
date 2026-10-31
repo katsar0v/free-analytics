@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Binary files.
+*.png binary
+*.mo  binary
+
+# Keep development files out of `git archive` (the install zip) and GitHub's source archives.
+/tests            export-ignore
+/docs             export-ignore
+/.github          export-ignore
+/.gitattributes   export-ignore
+/.gitignore       export-ignore
